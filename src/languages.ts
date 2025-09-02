@@ -1,5 +1,5 @@
 
-type language ={
+export type Language ={
     
     name: string,
     backgroundColor: string,
@@ -7,7 +7,7 @@ type language ={
 
 }
 
-export const languages: language[] = [
+export const languages: Language[] = [
     {
         name: "HTML",
         backgroundColor: "#E2680F",
